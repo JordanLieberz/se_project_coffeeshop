@@ -72,6 +72,7 @@
 .header__paragraph {
   margin: 0;
   margin-left: 80px;
+  margin-right: 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -87,5 +88,6 @@
   bottom: 40px;
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  align-items: flex-end;
 }
