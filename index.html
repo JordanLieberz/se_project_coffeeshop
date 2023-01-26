@@ -111,7 +111,7 @@
 <h2 class="reservation__title">Book a Table</h2>
 <form class="reservation__form">
   <fieldset class="form__fieldset">
-    <label class="form__label" for="Name Surname">Name *</label>
+    <label class="form__label" for="Name">Name *</label>
     <input 
     class="form__input" 
  type="text" 
@@ -139,13 +139,61 @@
   </fieldset>
   <fieldset class="form__fieldset">
     <button class="form__button" type="submit">Book a table</button></fieldset>
-    <fieldset>
-      <input class="form__label" type="checkbox">
+    <fieldset class="form__fieldset">
+      <label class="form__label form__label_type_checkbox">
+      <input class="form__checkbox" type="checkbox">
       I agree with the terms of use
+    </label>
     </fieldset>
 </form>
 </section>
+<section class="about">
+  <div class="about__circle"></div>
+  <div class="about__circle about__circle_animation_blurred"></div>
+  <h2 class="about__title">About the coffee shop</h2>
+<div class="about__content">
+  <p class="about__paragraph">Our coffee shop is located in the Practicum Library's hall. It features 6 tables and free WiFi.</p>
+    <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
+    <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
+  </div>
+</section>
     </main>
-    <footer></footer>
-  </body>
+    <footer id="Contacts" class="footer">
+      <div class="footer__content">
+         <img 
+         class="footer__logo" 
+        src="./Images/practicum_logo.svg" 
+        alt="Practicum Logo"
+        />
+        <div class="footer__social-wrapper">
+        <h2 class="footer__social-heading">Social Media</h2>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__social-link">
+              <img 
+              class="footer__social-icon" 
+              src="./Images/facebook_white.svg"
+              alt="Facebook Icon"
+              />
+              Facebook
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__social-link">
+              <img 
+              class="footer__social-icon" 
+              src="./Images/instagram_white.svg"
+              alt="Instagram Icon"
+              />
+              Instagram
+            </a>
+          </li>
+        </ul>
+        </div>
+        </div>
+    <p class="footer__copyright">© 2023 Jordan Lieberz</p>
+</footer>
+  </footer>
+</div>
+</body>
 </html>

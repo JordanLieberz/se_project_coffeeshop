@@ -7,7 +7,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
   margin-bottom: 8px;
+  justify-content: flex-start;
 }
 .form__input {
   border-radius: 4px;
@@ -40,11 +42,18 @@
   transition: 1s ease-in-out;
 }
 .form__checkbox {
+  width: 20px;
+  height: 20px;
   border-radius: 2px;
-  border: none;
   font-family: Inter, "Arial", "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin-right: 12px;
+}
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
 }
