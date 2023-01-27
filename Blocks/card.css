@@ -3,12 +3,13 @@
   flex-basis: 40%;
 }
 .card__title {
-  font-family: Inter, "Arial", "sans-serif";
+  font-family: Inter, "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 32px;
+  margin-top: 0;
 }
 .card__list {
   list-style: none;
@@ -26,6 +27,9 @@
   justify-content: space-between;
   align-items: baseline;
   flex-wrap: nowrap;
+}
+.card__list-item:last-of-type {
+  margin-bottom: 0px;
 }
 .card__list-divider {
   flex-grow: 3;

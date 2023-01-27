@@ -16,6 +16,7 @@
   flex-wrap: wrap;
   gap: 100px;
   justify-content: center;
+  margin-top: 0px;
 }
 .menu__title {
   margin: 0 auto;

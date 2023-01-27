@@ -2,7 +2,6 @@
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
-  size: cover;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
@@ -81,9 +80,6 @@
   line-height: 20px;
   color: #6f6f6f;
 }
-.header__hours {
-}
-
 .header__footer {
   position: absolute;
   left: 0px;
